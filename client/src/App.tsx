@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Contact from "./pages/Contact";
 
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/collection" element={<Collection></Collection>}></Route>
         <Route path="/about" element={<About></About>}></Route>
-        <Route path="/contact" element={<Home></Home>}></Route>
+        <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/product/:productId" element={<Product></Product>}></Route>
         <Route path="/cart" element={<Cart></Cart>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
